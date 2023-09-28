@@ -1,0 +1,18 @@
+/** @format */
+// color variables
+:root {
+  --color-yellow: #f8f200;
+  --color-black: #000;
+  --color-light-blue: #52bedc;
+  --color-white: #ffffff;
+}
+
+// breakpoints
+$bp-mobile: 320px;
+$bp-medium: 1024px;
+$bp-large: 1920px;
+
+// media-queries
+$mobile: " (max-width:#{$bp-mobile}) ";
+$medium: " (max-width:#{$bp-medium}) ";
+$large: " (max-width:#{$bp-large}) ";

@@ -1,0 +1,19 @@
+/** @format */
+
+.header {
+  display: flex;
+
+  &__social-icons-wrapper {
+    margin-left: auto;
+  }
+
+  &__list {
+    display: flex;
+
+    gap: 40px;
+  }
+
+  &__list-item {
+    list-style: none;
+  }
+}

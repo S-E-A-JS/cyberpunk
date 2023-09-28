@@ -1,0 +1,24 @@
+/** @format */
+
+.customButton {
+  padding: 15px 50px;
+
+  width: fit-content;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+
+  text-align: center;
+
+  &_isBlack {
+    color: var(--color-yellow);
+    background-color: var(--color-black);
+  }
+
+  &_isLarge {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+}
